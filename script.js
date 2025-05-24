@@ -42,12 +42,7 @@ addbook.addEventListener("click",function(event){
 
 })
 
-//select delete btn
-var deletebtn = document.getElementById("dltbtn");
 
-deletebtn.addEventListener("click",function(event){
-    
-})
 
 function deletebook(event){
     event.target.parentElement.remove();
